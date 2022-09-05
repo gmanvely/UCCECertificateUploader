@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MachineTypes>
+   <MachineType Id="1">
+      <TypeName name="VM Host (ESXi Server)" />
+   </MachineType>
+   <MachineType Id="2">
+      <TypeName name="Unified CCE Data Server" />
+      <port>443</port>
+      <port>7890</port>
+   </MachineType>
+   <MachineType Id="3">
+      <TypeName name="Unified CCE Call Server" />
+      <port>443</port>
+      <port>7890</port>
+   </MachineType>
+   <MachineType Id="4">
+      <TypeName name="Unified CVP" />
+      <port>8111</port>
+   </MachineType>
+   <MachineType Id="5">
+      <TypeName name="Unified CM (unknown type)" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="6">
+      <TypeName name="Unified CM Publisher" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="7">
+      <TypeName name="Unified CM Subscriber" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="8">
+      <TypeName name="Unified CVP Reporting Server" />
+      <port>8111</port>
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="9">
+      <TypeName name="Coresident CUIC, Live Data, and IDS Publisher" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="10">
+      <TypeName name="Coresident CUIC, Live Data, and IDS Subscriber" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="11">
+      <TypeName name="Unified CVP Operations Console Server" />
+      <port>9443</port>
+   </MachineType>
+   <MachineType Id="12">
+      <TypeName name="Finesse" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="13">
+      <TypeName name="Gateway" />
+   </MachineType>
+   <MachineType Id="14">
+      <TypeName name="External Customer Collaboration Platform" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="15">
+      <TypeName name="External Unified CM Publisher" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="16">
+      <TypeName name="External Unified CM Subscriber" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="17">
+      <TypeName name="External CVP Reporting Server" />
+      <port>8111</port>
+   </MachineType>
+   <MachineType Id="18">
+      <TypeName name="External CCE HDS" />
+      <port>443</port>
+      <port>7890</port>
+   </MachineType>
+   <MachineType Id="20">
+      <TypeName name="External Enterprise Chat and Email" />
+   </MachineType>
+   <MachineType Id="21">
+      <TypeName name="External Third Party Multichannel" />
+   </MachineType>
+   <MachineType Id="22">
+      <TypeName name="Unified CCE Router" />
+      <port>443</port>
+      <port>7890</port>
+   </MachineType>
+   <MachineType Id="23">
+      <TypeName name="Unified CCE Peripheral Gateway" />
+      <port>443</port>
+      <port>7890</port>
+   </MachineType>
+   <MachineType Id="24">
+      <TypeName name="Unified LiveData Server" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="25">
+      <TypeName name="Unified CCE Primary AW" />
+      <port>443</port>
+      <port>7890</port>
+   </MachineType>
+   <MachineType Id="26">
+      <TypeName name="Unified CCE Secondary AW" />
+      <port>443</port>
+      <port>7890</port>
+   </MachineType>
+   <MachineType Id="27">
+      <TypeName name="Unified CCE Progger" />
+      <port>443</port>
+      <port>7890</port>
+   </MachineType>
+   <MachineType Id="28">
+      <TypeName name="Unified CCE AW" />
+      <port>443</port>
+      <port>7890</port>
+   </MachineType>
+   <MachineType Id="29">
+      <TypeName name="Unified CCE Rogger" />
+      <port>443</port>
+      <port>7890</port>
+   </MachineType>
+   <MachineType Id="30">
+      <TypeName name="Enterprise Chat and Email" />
+   </MachineType>
+   <MachineType Id="31">
+      <TypeName name="Identity Server Publisher" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="32">
+      <TypeName name="Identity Server Subscriber" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="33">
+      <TypeName name="Finesse Primary" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="34">
+      <TypeName name="Finesse Secondary" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="35">
+      <TypeName name="Standalone Unified IC Publisher" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="36">
+      <TypeName name="Standalone Unified IC Subscriber" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="37">
+      <TypeName name="Cisco Virtualized Voice Browser" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="38">
+      <TypeName name="CCE Data Center" />
+      <port>443</port>
+      <port>7890</port>
+   </MachineType>
+   <MachineType Id="39">
+      <TypeName name="Unified CCE Peripheral Gateway for the remote Data Center" />
+      <port>443</port>
+      <port>7890</port>
+   </MachineType>
+   <MachineType Id="40">
+      <TypeName name="Unified CVP for the remote Data Center" />
+      <port>8111</port>
+   </MachineType>
+   <MachineType Id="41">
+      <TypeName name="Finesse Primary for the remote Data Center" />
+      <port>443</port>
+   </MachineType>
+   <MachineType Id="42">
+      <TypeName name="Finesse Secondary for the remote Data Center" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="43">
+      <TypeName name="External Unified CVP Reporting server for remote Data Center" />
+      <port>8111</port>
+   </MachineType>
+   <MachineType Id="44">
+      <TypeName name="External Customer Collaboration Platform for remote Data Center" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="45">
+      <TypeName name="External ECE for remote Data Center" />
+      <port>443</port>
+   </MachineType>
+   <MachineType Id="46">
+      <TypeName name="External third-party multichannel for remote Data Center" />
+   </MachineType>
+   <MachineType Id="47">
+      <TypeName name="External CUSP" />
+   </MachineType>
+   <MachineType Id="48">
+      <TypeName name="External CUSP for remote Data Center" />
+   </MachineType>
+   <MachineType Id="49">
+      <TypeName name="External Cisco Virtualized Voice Browser for remote Data Center" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="50">
+      <TypeName name="External gateway for remote Data Center" />
+   </MachineType>
+   <MachineType Id="51">
+      <TypeName name="ECE Web Server" />
+      <port>443</port>
+   </MachineType>
+   <MachineType Id="52">
+      <TypeName name="ECE Web Server for remote Data Center" />
+      <port>443</port>
+   </MachineType>
+   <MachineType Id="53">
+      <TypeName name="CCE Logger (For PCCE deployments)" />
+      <port>443</port>
+      <port>7890</port>
+   </MachineType>
+   <MachineType Id="54">
+      <TypeName name="Data Connector" />
+      <port>8443</port>
+   </MachineType>
+   <MachineType Id="55">
+      <TypeName name="External Media Server" />
+   </MachineType>
+   <MachineType Id="56">
+      <TypeName name="DC_External_Media Server" />
+   </MachineType>
+</MachineTypes>
