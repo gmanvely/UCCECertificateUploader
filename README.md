@@ -1,13 +1,13 @@
 # UCCECertificateUploader
 
-ntroduction
+# Introduction
 
  
 
 This document describes the tool for getting and uploading certificates in the Unified Contact Center Enterprise (UCCE) solution.
 
  
-Problem
+# Problem
 
  
 
@@ -20,7 +20,7 @@ Certificates can be expired, and renewing them is another trick.
 There should be a way to do it with fewer efforts and more quickly.
 
  
-Solution
+# Solution
 
 The article contains a tool written in Java that will help you with the task.
 
@@ -54,7 +54,7 @@ The inventory data consists of 6 columns:
     
     
     
-ESXi Mode
+# ESXi Mode
 
  
 
@@ -70,7 +70,7 @@ VMWare tools must be running on the Virtual machines, otherwise, the hostname wi
 
 VCenter is not supported for connections.
 
-Free mode
+# Free mode
 
  
 
@@ -87,7 +87,7 @@ Example use cases:
 -Get and upload IDS certificates to ECE application server
 
 
-Technical details
+# Technical details
 
  
 
