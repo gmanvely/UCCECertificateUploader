@@ -360,12 +360,18 @@ public class UCCECertificateUploader {
             @Override
             public void widgetSelected(SelectionEvent arg0) {
             	if (btnRadio_12_5.getSelection()){
-            		String cce_java_home = System.getenv("CCE_JAVA_HOME");
-            		String java_home = System.getenv("JAVA_HOME");
-            		if (cce_java_home.length()>0) {
-            			cacertPath.setText(cce_java_home+"\\lib\\security\\cacerts");
+            		if (System.getenv("CCE_JAVA_HOME")!= null) {
+            			String cce_java_home = System.getenv("CCE_JAVA_HOME");
+            			String java_home = System.getenv("JAVA_HOME");
+            			if (cce_java_home.length()>0) {
+            				cacertPath.setText(cce_java_home+"\\lib\\security\\cacerts");
+            			}
+            			else {
+            				cacertPath.setText(java_home+"\\lib\\security\\cacerts");
+            			}
             		}
             		else {
+            			String java_home = System.getenv("JAVA_HOME");
             			cacertPath.setText(java_home+"\\lib\\security\\cacerts");
             		}
             	}

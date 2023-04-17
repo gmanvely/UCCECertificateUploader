@@ -58,7 +58,7 @@ public class MachineTypeName {
 		    }
 		
 	}
-		return null;
+		return "not found";
 	}	
 	
 	public String[] getMachinePorts(String machineType) {
